@@ -1,56 +1,67 @@
+Script de Red en PowerShell
 
-## PowerShell Network Tools - Script de Red
-Script interactivo en PowerShell con menú de herramientas de red para administración y diagnóstico.
+Script interactivo en PowerShell que ofrece un menú con herramientas de red para administrar y diagnosticar la red.
 
-📋 Descripción
-Script con identificación de usuario que ofrece un menú con 10 herramientas de red para pruebas de conectividad y gestión de configuración IP.
+Este script es muy útil para trabajar con la red. Tiene un menú que te permite elegir entre diferentes herramientas de red.
 
-⚙️ Funciones disponibles
-Opción	Comando	Descripción
-1	ping 127.0.0.1	Prueba de loopback
-2	ipconfig	Configuración básica de red
-3	ipconfig /all	Configuración completa de red
-4	tracert	Rastreo de ruta a IP o dominio
-5	ping 8.8.8.8	Prueba de conectividad a DNS de Google
-6	ping google.com	Prueba de conectividad a Google
-7	ipconfig /release	Liberar dirección IP
-8	ipconfig /renew	Renovar dirección IP
-9	ipconfig /flushdns	Limpiar caché DNS
-10	Salir	Cerrar el script
+**Funciones disponibles**
 
-🚀 Instalación y ejecución
-Guarda el script como red.ps1
+1. **Prueba de loopback**: Puedes probar la conectividad con el comando `ping 127.0.0.1`.
 
-Abre PowerShell como administrador
+2. **Configuración básica de red**: Puedes ver la configuración básica de la red con el comando `ipconfig`.
 
-Ejecuta: .\red.ps1
+3. **Configuración completa de red**: Puedes ver la configuración completa de la red con el comando `ipconfig /all`.
 
-Si da error de ejecución:
+4. **Rastreo de ruta**: Puedes rastrear la ruta a una IP o dominio con el comando `tracert`.
 
-powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+5. **Prueba de conectividad a Google DNS**: Puedes probar la conectividad a Google DNS con el comando `ping 8.8.8.8`.
 
-📁 Estructura del código
-Identificación de usuarios
+6. **Prueba de conectividad a Google**: Puedes probar la conectividad a Google con el comando `ping google.com`.
 
-Menú principal con bucle
+7. **Liberar dirección IP**: Puedes liberar la dirección IP con el comando `ipconfig /release`.
 
-9 funciones de red independientes
+8. **Renovar dirección IP**: Puedes renovar la dirección IP con el comando `ipconfig /renew`.
 
-Función de salida
+9. **Limpiar caché DNS**: Puedes limpiar el caché DNS con el comando `ipconfig /flushdns`.
 
-👨‍💻 Autor
-Hugo Arcones
+10. **Salir**: Puedes cerrar el script.
 
-📄 Licencia
-MIT
+**Instalación y ejecución**
 
-📌 Requisitos
-Windows 10/11
+Para ejecutar este script, sigue estos pasos:
 
-PowerShell 5.0 o superior
+* Guarda el script como `red.ps1`.
 
-Permisos de administrador (opciones 7 y 8)
+* Abre PowerShell como administrador.
 
+* Ejecuta el comando `.\red.ps1`.
 
-Si te fue Útil dale una estrella 
+Si aparece un error de ejecución, puedes ejecutar el comando `powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`.
+
+**Estructura del código**
+
+Este script tiene una estructura sencilla:
+
+* Identificación de usuarios
+
+* Menú principal con bucle
+
+* 9 funciones de red independientes
+
+* Función de salida
+
+**Autor y licencia**
+
+Este script fue creado por Hugo Arcones y tiene una licencia MIT.
+
+**Requisitos**
+
+Para ejecutar este script, necesitas:
+
+* Windows 10 o 11
+
+* PowerShell 5.0 o superior
+
+* Permisos de administrador (para opciones 7 y 8)
+
+Si te ha sido útil, no dudes en darme una estrella.
