@@ -1,4 +1,4 @@
-<h1 align = "center" >🌐 Script de Red en PowerShell</h1>
+<h1 align = "center" >🌐 Network Diagnostic Toolkit </h1>
 
 Este es un script interactivo hecho en PowerShell que incluye un menú con varias herramientas básicas de red. Está pensado para facilitar tareas de diagnóstico y administración de red desde la consola de Windows.
 
